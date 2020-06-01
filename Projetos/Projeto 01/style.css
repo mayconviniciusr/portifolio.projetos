@@ -1,0 +1,212 @@
+/**DIVS GERAIS**/
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;}
+html, body {height: 100%;}
+.container 
+{width: 100%;
+max-width: 1200px;
+margin: 0px auto;}
+.clear {clear: both;}
+
+/**DIV HEADER**/
+.header
+{width: 100%;
+padding: 0px 2%;
+height: 60px;
+background-color: #212343;}
+.header img 
+{margin: 15px;}
+
+/**DIV BACKGROUND-BANNER**/
+.background-banner
+{width: 100%;
+padding: 0px 2%;
+height: 557PX;
+background-image: url('./img/header_bg.png');
+background-size: cover;
+background-position: center;}
+.background-banner > .container {height: 100%;}
+
+.container-list
+{float: left;
+width: 519px;
+height: 270px;
+padding: 30px;
+background-color: rgba(33, 35, 67, 0.7);
+margin-top: 100px;}
+.container-list ul {list-style-position: inside;}
+.container-list ul li 
+{color: white;
+margin-top: 18px;
+padding: 5px;}
+
+.form 
+{width: 400px;
+height: calc(100% + 30px);
+padding: 10px;
+float: right;
+position: relative;
+top: -15px;
+border-width: 12px;
+border-color: rgba(120, 120, 120, 0.5);
+border-style: solid;
+background-color: white;
+background-clip: padding-box;}
+.form h2 
+{font-size: 21px;
+color: #999999;
+font-weight: normal;}
+
+.input-container {margin-top: 20px;}
+.input-container span, .form p
+{display: inline-block;
+width: 100%;
+color: #bbbbbb;
+font-size: 17px;}
+.form p {margin: 20px 0px;}
+
+[type=text]
+{width: 344px;
+height: 55px;
+border: 1px solid #cccccc;
+margin-top: 8px;}
+
+.submit-container {text-align: center;}
+[type=submit]
+{width: 280px;
+height: 56px;
+background-color: #363A6D;
+color: white;
+font-size: 25px;
+display: inline-block;
+border-bottom: 5px solid #4A5097;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+cursor: pointer;}
+[type=submit]:hover {background-color: #323665;}
+
+/**DIV INFORMACAO**/
+.informacao
+{padding: 40px 2%;
+background-color: #dddddd;
+text-align: center;}
+.informacao h2 {font-weight: normal;}
+.informacao p
+{width: 100%;
+max-width: 768px;
+margin: 15px 0px;
+display: inline-block;
+text-align: justify;}
+
+.arrow
+{width: 40px;
+height: 40px;
+background-image: url('./img/arrow.png');
+background-size: 100% 100%;
+position: relative;
+top: 60px;
+left: 50%;
+margin-left: -20px ;}
+
+/**DIV SERVICOS**/
+.servicos {padding: 90px 2%;}
+.servicos h2
+{text-align: center;
+color: #462663;
+font-weight: normal;}
+
+.servicos-section 
+{margin-top: 40px;
+text-align: center;}
+
+.servicos-single
+{float: left;
+width: 33.333%;
+padding: 30px;}
+.servicos-single img {width: 70px;}
+.servicos-single p 
+{text-align: justify;
+padding: 10px;
+display: inline-block;}
+
+/**DIV FOOTER**/
+.footer 
+{border-top: 2px solid #888888;
+padding: 20px 0px;
+text-align: center;
+color: #888888;}
+.footer {margin-top: 8px;}
+
+/**RESPONSIVO**/
+@media screen and (max-width: 1024px)
+{
+    .header
+    {width: 100%;
+    padding: 15px 0px;
+    height: auto;
+    text-align: center;}
+    .header img {margin: 0px;}
+
+    .container-list
+    {float: none;
+    width: 40%;
+    max-width: 500px;
+    height: auto;
+    padding: 30px 5px;
+    margin-top: 0px;
+    display: inline-block;}
+
+    .background-banner
+    {width: 100%;
+    padding: 40px 2%;
+    height: auto;
+    text-align: center;}
+
+    .form 
+    {max-width: 400px;
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    float: none;
+    top: 0px;}
+
+    [type=text]
+    {width: 100%;
+    height: 55px;}
+    [type=submit]
+    {width: 100%;
+    max-width: 280px;;
+    height: 56px;}
+}
+
+@media screen and (max-width: 768px)
+{ 
+    .container-list
+    {margin-top: 0;
+    float: none;
+    display: inline-block;
+    width: 100%;}
+
+    .form 
+    {float: none;
+    display: inline-block;
+    width: 90%;
+    margin-top:30px;}
+
+    .informacao
+    {padding-right: 4%;
+    padding-left: 4%;}
+
+    .servicos-single
+    {float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    padding:30px 0;}
+}

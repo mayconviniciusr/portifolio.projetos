@@ -1,0 +1,71 @@
+/** DIVS GERAIS **/
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;}
+html, body {height: 100%;}
+.container
+{max-width: 1200px;
+margin: 0px auto;}
+.clear {clear: both;}
+
+/** HEADER **/
+header
+{width: 100%;
+height: 80vh;
+min-height: 700px;
+background-image: url('./img/background-header.jpg');
+background-size: cover;}
+.header-container 
+{padding: 20px 2%; 
+border-bottom: 1.2px solid #cccccc;}
+
+header img
+{float: left;
+width: 200px;
+height: auto;
+background-size: 100% auto;
+background-repeat: no-repeat;}
+header nav {float: right;}
+header nav a 
+{text-decoration: none;
+font-size: 18px;
+font-weight: 400;
+color: #B5BEC2;}
+
+.menu-desktop ul {list-style-type: none;}
+.menu-desktop li 
+{float: left;
+padding: 25px 20px;}
+
+/** SECTION BACKGROUND **/
+.background-text
+{width: 50%;
+margin-top: 10%;
+padding-left: 150px;
+color: white;}
+
+.background-text h2 
+{font-size: 36px;
+font-weight: 400;}
+.background-text h5
+{font-weight: 300 bold;
+font-size: 15px;
+margin-top: 15px;
+max-width: 400px;}
+
+.btn{
+position: relative;
+left: 80px;
+width: 165px;
+height: 44px;
+line-height: 44px;
+margin-top: 30px;
+text-align: center;
+font-size: 13px;
+background-color: #FF703D;
+color: white;
+cursor: pointer;
+border-radius: 25px;
+}

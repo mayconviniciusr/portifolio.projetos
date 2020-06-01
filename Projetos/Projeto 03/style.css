@@ -1,0 +1,397 @@
+/**DIVS GERAIS**/
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;}
+html, body {height: 100%;}
+.container 
+{max-width: 1200px;
+margin: 0px auto;}
+.clear {clear: both;}
+
+/**HEADER**/
+header
+{width: 100%;
+height: 90vh;
+min-height: 800px;
+padding: 40px 2%;
+font-weight: 300;
+background-color: #cccccc;
+background-image: url('./img/backgournd.jpg');
+background-size: cover;
+background-position: center;}
+header nav {float: right;}
+.desktop-menu ul {list-style-type: none;}
+.desktop-menu li 
+{float: left;
+padding: 0px 20px;}
+.desktop-menu a 
+{text-decoration: none;
+color: white;}
+
+.mobile-menu
+{display: none;
+cursor: pointer;
+width: 32px;
+height: 32px;
+background-image: url('./img/menu-aberto.png');
+background-size: 100% 100%;}
+.mobile-menu ul 
+{position: absolute;
+left: 0px;
+top: 95px;
+width: 100%;
+background-color: white;
+text-align: center;
+list-style-type: none;
+opacity: 0;
+transition: 1s;}
+.mobile-menu ul li
+{border-bottom: 1px solid black;
+padding: 8px 0px;
+transition: 1s;}
+.mobile-menu a 
+{text-decoration: none;
+color: black;}
+.mobile-menu:hover ul {opacity: 1;}
+.mobile-menu ul li:hover {background-color: rgb(230, 230, 230);}
+
+.logo 
+{width: 160px;
+height: 40px;
+background-color: white;
+display: inline-block;}
+
+.chamada1
+{max-width: 600px;
+float: right;
+margin: 140px 150px;}
+.chamada1 h2
+{font-size: 40px;
+font-weight: 300;
+color: white;}
+.chamada1 p
+{font-size: 15px;
+color: white;
+margin-top: 10px;}
+
+/**SECTION SESSAO1**/
+.sessao1
+{width: 100%;
+height: 400px;
+background-color: #472562;
+padding: 0px 2%;}
+.sessao1 .container
+{max-width: 1000px;
+height: calc(100% + 30px);}
+
+.sessao1-text
+{float: left;
+width: 50%;
+color: white;
+margin-top: 60px;
+padding-left: 80px;
+position: relative;
+left: 60px;}
+.sessao1-text h2 
+{font-size: 25px;
+font-weight: 300;}
+.sessao1-text p 
+{font-size: 15px;
+margin-top: 20px;}
+.sessao1-text ul 
+{list-style-position: outside;
+padding-left: 15px;
+font-size: 15px;}
+.sessao1-text ul li 
+{float: left;
+width: 100%;
+margin-top: 8px;}
+
+.btn1-text
+{background-color: #FF703D;
+width: 165px;
+height: 44px;
+line-height: 44px;
+color: white;
+cursor: pointer;
+margin-top: 30px;
+text-align: center;
+font-size: 13px;
+border-radius: 25px;}
+
+.sessao1-device
+{float: left;
+width: 50%;
+height: 100%;
+position: relative;
+top: -30px;
+background-image: url('./img/tell.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;}
+
+/**SECTION SESSAO2**/
+.sessao2
+{padding-left: 2%;
+padding-right: 2%;
+
+text-align: center;}
+.sessao2 .container {max-width: 1000px;}
+.sessao2 h2
+{color: #472663;
+font-weight: 300;}
+.sessao2 p
+{margin-top: 30px;
+max-width: 900px;
+display: inline-block;}
+.sessao2 img 
+{width: 100%;
+margin-top: 40px;
+background-color: #cccccc;
+position: relative;
+top: 100px;}
+
+/**SECTION SESSAO3**/
+.sessao3 {width: 100%;}
+
+.wraper-part1 
+{max-width: 600px;
+float: right;
+padding-right: 0px 30px;}
+.part1 
+{float: left;
+width: 50%;
+padding: 140px 0px 90px 0px;
+background-color: #835fa7;
+color: white;}
+.part1 h2 
+{font-weight: 300;
+font-style: italic;
+font-size: 23px;}
+.part1 p
+{font: 16px;
+margin-top: 10px;
+line-height: 30px;}
+
+.part2
+{float: left;
+width: 50%;
+padding: 140px 0px 90px 0px;}
+
+.sobre-autor
+{float: left;
+max-width: 600px;
+padding-left: 30px;}
+
+.wraper-titulo-autor {float: left;}
+.titulo-autor
+{float: left;
+width: 100%;}
+.titulo-autor h2 
+{padding-right: 20px;
+color: #232323;
+font-weight: 400;
+font-size: 25px;}
+.titulo-autor p
+{font-size: 13px;
+color: #232323;
+font-style: italic;
+font-weight: 300;}
+
+.img-autor
+{float: left;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+position: relative;
+top: -5px;
+background-image: url('./img/img-funcionario.png');}
+
+.texto-autor
+{float: left;
+width: 8    0%;
+margin-top: 10px;}
+.texto-autor p
+{color: #232323;
+font-size: 15px;}
+
+.slider-bullets
+{float: left;
+margin-top: 8px;
+width: 100%;
+padding-left: 30px;}
+.slider-bullets span
+{width: 16px;
+height: 16px;
+float: left;
+margin-right: 8px;
+cursor: pointer;
+background-color: rgb(200, 200, 200);
+border-radius: 8px;}
+
+/**SECTION SESSAO4**/
+.sessao4 
+{background-color: #472553;
+padding: 100px 2%;}
+
+.form 
+{float: left;
+width: 50%;
+color: white;}
+.form h2 
+{font-weight: 300;
+font-size: 23px;}
+.form p 
+{font-weight: 300;
+font-size: 15px;
+max-width: 400px;
+padding-right: 10px;}
+
+form {margin-top: 15px;}
+form [type=text]
+{width: 80%;
+max-width: 480px;
+margin-top: 8px;
+height: 58px;
+padding-left: 8px;
+line-height: 58px;
+border: 1px solid rgb(200, 200, 200);}
+form textarea 
+{width: 80%;
+max-width: 480px;
+margin-top: 8px;
+padding: 15px;
+border: 1px solid rgb(200, 200, 200);
+height: 160px;}
+form [type=submit]
+{background-color: #FF703D;
+width: 165px;
+height: 44px;
+margin-top: 15px;
+color: white;
+cursor: pointer;
+font-size: 13px;
+border-radius: 30px;
+border: 0px;}
+
+.wraper-map
+{float: left;
+width: 50%;
+color: white;
+padding: 0px 10px;}
+.wraper-map h2
+{font-size: 23px;
+font-weight: 300;}
+
+.map-wraper 
+{width: 100%;
+max-width: 480px;
+position: relative;
+margin-top: 10px;}
+.wraper-map2 
+{width: 100%;
+padding-top: 100%;
+position: absolute;;}
+.map 
+{position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+background-color: white;
+border: 1px solid rgb(200, 200, 200);}
+
+
+@media screen and (max-width: 830px)
+{
+    .chamada1
+    {max-width: none;
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 170px 0px;}
+    .chamada1 h2
+    {font-size: 30x;
+    font-weight: 300;
+    padding: 0px 10px;}
+    .chamada1 p
+    {font-size: 15px;
+    margin-top: 10px;}
+
+}
+
+@media screen and (max-width: 768px)
+
+{
+    header
+    {width: 100%;
+    height: auto;
+    min-height: 90vh;
+    padding: 40px 2%;}
+
+    .desktop-menu {display: none;}
+    .mobile-menu {display: block;}
+
+    .sessao1 
+    {padding: 40px 2%;
+    height: auto;
+    text-align: center;}
+    .sessao1-text 
+    {margin-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+    position: static;
+    float: none;
+    display: inline-block;}
+    .sessao1-text ul 
+    {margin-top: 20px;
+    display: inline-block;}
+    .sessao1-text ul li 
+    {float: none;
+    text-align: left;}
+    .btn1-text {display: inline-block;}
+    .sessao1-device {display: none;}
+
+    .sessao2 {padding: 40px 2%;}
+    
+    .sessao4 .container
+    {text-align: center;}
+
+    .form {width: 100%;}
+    .form p {display: inline-block; float: none;}
+    .wraper-map
+    {width: 100%;
+    padding: 0px 4%;
+    margin-top: 40px;}
+
+    .map-wraper
+    {margin-top: 10px;
+    width: 80%;
+    padding-top: 80%;
+    display: inline-block;
+    max-width: none;
+    position: relative;}
+    .wraper-map2
+    {position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;}
+
+}
+
+@media screen and (max-width: 580px)
+{
+    .part1 
+    {width: 100%;
+    padding: 40px 0px;}
+    .part2 
+    {width: 100%;
+    padding: 40px 0px;}
+
+    .sessao2 img
+    {margin: 16px;
+    margin-top: 20px}
+}
